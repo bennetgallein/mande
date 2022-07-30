@@ -12,7 +12,6 @@ export default (ctx, inject) => {
 
           const proxyHeadersIgnore =
             // comment easier
-            <%= serialize(options.proxyHeadersIgnore) %> ||
             [
               'accept',
               'host',
