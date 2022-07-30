@@ -1,6 +1,6 @@
 {
-  "name": "mande",
-  "version": "2.0.2",
+  "name": "@bennetgallein/mande",
+  "version": "3.0.0-rc1",
   "description": "Some awesome description",
   "main": "index.js",
   "module": "dist/mande.mjs",
@@ -25,7 +25,8 @@
       "import": "./dist/mande.mjs"
     },
     "./package.json": "./package.json",
-    "./dist/*": "./dist/*"
+    "./dist/*": "./dist/*",
+    "./nuxt": "./nuxt/*"
   },
   "author": {
     "name": "Eduardo San Martin Morote",

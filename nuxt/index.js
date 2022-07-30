@@ -14,7 +14,7 @@ const DEFAULT_OPTIONS = {
 }
 
 /** @type {import('@nuxt/types').Module} */
-const MandeModule = function NuxtMandeModule(localOptions) {
+export default function NuxtMandeModule(localOptions) {
   // TODO: merge arrays properly. There is probably a package to handle this
   const options = {
     ...DEFAULT_OPTIONS,
@@ -29,4 +29,4 @@ const MandeModule = function NuxtMandeModule(localOptions) {
   })
 }
 
-module.exports = MandeModule
+module.exports.meta = require('./package.json')
