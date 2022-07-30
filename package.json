@@ -1,6 +1,6 @@
 {
   "name": "@bennetgallein/mande",
-  "version": "3.0.0-rc4",
+  "version": "3.0.0-rc5",
   "description": "Some awesome description",
   "main": "index.js",
   "module": "dist/mande.mjs",
@@ -12,13 +12,9 @@
     ".": {
       "node": {
         "import": {
-          "production": "./dist/mande.prod.cjs",
-          "development": "./dist/mande.mjs",
           "default": "./dist/mande.mjs"
         },
         "require": {
-          "production": "./dist/mande.prod.cjs",
-          "development": "./dist/mande.cjs",
           "default": "./index.js"
         }
       },

@@ -1,3 +1,5 @@
+# [3.0.0-rc5](https://github.com/posva/mande/compare/v3.0.0-rc4...v3.0.0-rc5) (2022-07-30)
+
 # 3.0.0-rc4 (2022-07-30)
 
 ### Bug Fixes
