@@ -1,6 +1,6 @@
 {
   "name": "@bennetgallein/mande",
-  "version": "3.0.0-rc3",
+  "version": "3.0.0-rc4",
   "description": "Some awesome description",
   "main": "index.js",
   "module": "dist/mande.mjs",

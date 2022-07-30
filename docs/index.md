@@ -8,5 +8,5 @@
 
 |  Package | Description |
 |  --- | --- |
-|  [mande](./mande.md) |  |
+|  [@bennetgallein/mande](./mande.md) |  |
 
