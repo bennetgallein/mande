@@ -37,17 +37,6 @@ export default (ctx, inject) => {
         },
         ...args
       )
-      <% if (options.callError) { %>
-        .catch((err) => {
-          const errorObject = {
-            statusCode: err.response.status,
-            message: err.message,
-            body: err.body,
-          }
-          ctx.error(errorObject)
-          return Promise.reject(errorObject)
-        })
-      <% } %>
     )
   }
 
