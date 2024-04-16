@@ -1,4 +1,5 @@
 import path from 'path'
+import { addPlugin } from '@nuxt/kit'
 
 const DEFAULT_OPTIONS = {
   callError: true,
@@ -21,7 +22,7 @@ export default function NuxtMandeModule(localOptions) {
     ...localOptions,
   }
 
-  this.addPlugin({
+  addPlugin({
     src: path.resolve(__dirname, 'plugin.js'),
     fileName: 'mande.js',
     // FIXME: figure out why options end up being undefined

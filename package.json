@@ -75,10 +75,10 @@
   "devDependencies": {
     "@microsoft/api-documenter": "^7.19.0",
     "@microsoft/api-extractor": "^7.28.6",
+    "@nuxt/kit": "^3.11.2",
     "@nuxt/types": "^2.15.8",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-replace": "^3.1.0",
-    "@size-limit/preset-small-lib": "^7.0.8",
     "@types/jest": "^27.5.2",
     "codecov": "^3.8.3",
     "conventional-changelog-cli": "^2.2.2",
